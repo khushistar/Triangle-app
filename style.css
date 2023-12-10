@@ -44,20 +44,20 @@ a {
     color: var(--white);
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-.copyright{
+.copyright {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
 }
 
-li a{
+li a {
     display: inline;
 }
 
-li a i{
+li a i {
     margin: 0.5rem;
     font-size: 2.5rem;
     color: var(--primary-color);
@@ -65,22 +65,22 @@ li a i{
 
 /* --------------index---------- */
 
-main{
+main {
     text-align: center;
 }
 
-.main-heading{
+.main-heading {
     margin: 1rem;
 }
 
-.container label{
+.container label {
     font-size: 1.5rem;
     margin: 0.5rem;
     display: block;
     color: var(--primary-color);
 }
 
-.container input{
+.container input {
     font-size: 1.2rem;
     margin: 1rem;
     width: 15%;
@@ -89,7 +89,7 @@ main{
     border: 2px solid var(--primary-color);
 }
 
-button{
+button {
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
     border-radius: 0.5rem;
@@ -101,3 +101,21 @@ button{
     margin: 1.3rem auto 5rem;
 }
 
+/* ---------------quiz--------------- */
+form {
+    margin-bottom: 2rem;
+}
+
+.containers {
+    margin-top: 1rem;
+}
+
+.containers label {
+    font-size: larger;
+    margin: 0 0.5rem
+}
+
+.questions {
+    font-size: 1.2rem;
+    margin: 1rem;
+}

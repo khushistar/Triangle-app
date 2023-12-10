@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Triangle-Quiz</title>
 </head>
+
 <body>
     <header>
         <h1 class="heading">FUN WITH TRIANGLES</h1>
@@ -21,6 +26,80 @@
             <h1 class="main-heading">Quiz on Triangles</h1>
             <h3 class="sub-heading">For each correct answer you will get 1 point</h3>
         </div>
+        <form>
+            <div class="containers">
+                <p class="questions">What is the third angle for the triangle where angle1 = 45° and anlge2 = 45°?</p>
+                <label for="anlge1"><input type="radio" name="question1" value="45°">45°</label>
+                <label for="anlge1"><input type="radio" name="question1" value="90°">90°</label>
+                <label for="anlge1"><input type="radio" name="question1" value="70°">70°</label>
+            </div>
+            <div class="containers">
+                <p class="questions">What is the third angle for the triangle where angle1 = 45° and anlge2 = 45°?</p>
+                <label for="anlge1"><input type="radio" name="question2" value="obtuse">obtuse</label>
+                <label for="anlge1"><input type="radio" name="question2" value="acute">acute</label>
+                <label for="anlge1"><input type="radio" name="question2" value="right angled">right angled</label>
+            </div>
+            <div class="containers">
+                <p class="questions">A triangle can have</p>
+                <label for="anlge1"><input type="radio" name="question3" value="one right angle">one right angle</label>
+                <label for="anlge1"><input type="radio" name="question3" value="two right angles">two right
+                    angles</label>
+            </div>
+            <div class="containers">
+                <p class="questions">Which of following can form a right angled triangle?</p>
+                <label for="anlge1"><input type="radio" name="question4" value="14, 15, 26">14, 15, 26</label>
+                <label for="anlge1"><input type="radio" name="question4" value="12, 16, 20">12, 16, 20</label>
+            </div>
+            <div class="containers">
+                <p class="questions">Which of following triangles are always similar?</p>
+                <label for="anlge1"><input type="radio" name="question5" value="Equilateral triangle">Equilateral
+                    triangle</label>
+                <label for="anlge1"><input type="radio" name="question5" value="Isosceles triangle">Isosceles
+                    triangle</label>
+            </div>
+            <div class="containers">
+                <p class="questions">If one angle of a triangle is obtuse, then which one of the following is the
+                    possible measure of remaining angles?</p>
+                <label for="anlge1"><input type="radio" name="question6" value="100°">100°</label>
+                <label for="anlge1"><input type="radio" name="question6" value="85°">85°</label>
+            </div>
+            <div class="containers">
+                <p class="questions">If the largest angle in a triangle is 70°, what is the least possible value of the
+                    smallest angle of the triangle?</p>
+                <label for="anlge1"><input type="radio" name="question7" value="30°">30°</label>
+                <label for="anlge1"><input type="radio" name="question7" value="10°">10°</label>
+            </div>
+            <div class="containers">
+                <p class="questions">The perimeter of scalene triangle with sides a, b, c is</p>
+                <label for="anlge1"><input type="radio" name="question8" value="a+b+c">a + b + c</label>
+                <label for="anlge1"><input type="radio" name="question8" value="2a">2a</label>
+                <label for="anlge1"><input type="radio" name="question8" value="None of this">None of this</label>
+            </div>
+            <div class="containers">
+                <p class="questions">A scalene triangle has ___ lines of symmetry</p>
+                <label for="anlge1"><input type="radio" name="question9" value="two">two</label>
+                <label for="anlge1"><input type="radio" name="question9" value="no">no</label>
+                <label for="anlge1"><input type="radio" name="question9" value="15">15</label>
+            </div>
+            <div class="containers">
+                <p class="questions">There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the
+                    measure of angles P and R?</p>
+                <label for="anlge1"><input type="radio" name="question10" value="85°">85°</label>
+                <label for="anlge1"><input type="radio" name="question10" value="65°">65°</label>
+                <label for="anlge1"><input type="radio" name="question10" value="45°">45°</label>
+            </div>
+        </form>
+        <button type="submit" id="submit">Submit</button>
+        <h2 id="output"></h2>
     </main>
+    <footer>
+        <p class="copyright">© | 2024 | Khushi kunwar</p>
+        <ul class="social-links">
+            <li class="link"><a href=""><i class="fa-brands fa-github"></i></a></li>
+            <li class="link"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="link"><a href=""><i class="fa-brands fa-square-x-twitter"></i></a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
