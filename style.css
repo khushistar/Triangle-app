@@ -45,6 +45,7 @@ a {
 }
 
 footer {
+    margin-top: 4rem;
     text-align: center;
 }
 
@@ -98,12 +99,17 @@ button {
     color: var(--white);
     cursor: pointer;
     display: block;
-    margin: 1.3rem auto 5rem;
+    /* margin: 1.3rem auto; */
+    margin: 1.3rem auto 3rem;
+}
+
+#output{
+    margin: 1.5rem;
 }
 
 /* ---------------quiz--------------- */
 form {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .containers {
