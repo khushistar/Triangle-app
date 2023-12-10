@@ -9,7 +9,7 @@
     --white: #fff;
 }
 
-header{
+header {
     background-color: var(--primary-color);
     padding: 1.5rem 2rem;
     display: flex;
@@ -17,10 +17,30 @@ header{
     justify-content: space-between;
 }
 
-.heading{
+.heading {
     color: var(--white);
 }
 
-.link, a{
+.link,
+a {
     display: inline;
 }
+
+.link {
+    list-style-type: none;
+    padding: 0.5rem 0;
+    margin: 0 0.4rem;
+}
+
+.link.active {
+    border-top: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0rem 0.5rem;
+    color: var(--white);
+}
+
