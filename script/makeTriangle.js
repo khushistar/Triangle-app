@@ -8,8 +8,8 @@ function calculatesum(angle1, angle2, angle3) {
 
 function checkIsTriangle() {
   let a1 = Number(userInput[0].value);
-  let a2 = Number(userInput[0].value);
-  let a3 = Number(userInput[0].value);
+  let a2 = Number(userInput[1].value);
+  let a3 = Number(userInput[2].value);
   let sumofthreeangles = calculatesum(a1, a2, a3);
   console.log(sumofthreeangles);
   if (sumofthreeangles === 180) {
