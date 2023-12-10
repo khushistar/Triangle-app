@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --primary-color: rgb(69 69 194);
+    --white: #fff;
+}
+
+header{
+    background-color: var(--primary-color);
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    color: var(--white);
+}
+
+.link, a{
+    display: inline;
+}
